@@ -2,10 +2,15 @@
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # Temporary files
+\#auto_saved_files\#
+_autosave*
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
+*-backups
+*-cache*
+*.kicad_prl
 *.sch-bak
 *~
 _autosave-*

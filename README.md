@@ -1,4 +1,5 @@
 # picow_ssr_control
+
 The Raspberry Pi Pico W Solid State Relay Controller is primarily meant to be
 used with an open hardware solid state relay PCB that is being co-developed
 alongside this project as part of my Dragon Mobile GitHub organization to make

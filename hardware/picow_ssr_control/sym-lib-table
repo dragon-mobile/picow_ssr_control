@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Pico")(type "KiCad")(uri "${KIPRJMOD}/symbols/Pico.kicad_sym")(options "")(descr ""))
+  (lib (name "Picow_control")(type "KiCad")(uri "${KIPRJMOD}/symbols/Picow_control.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Pico")(type "KiCad")(uri "${KIPRJMOD}/footprints/Pico.pretty")(options "")(descr ""))
+  (lib (name "Picow_control")(type "KiCad")(uri "${KIPRJMOD}/footprints/Picow_control.pretty")(options "")(descr ""))
+)

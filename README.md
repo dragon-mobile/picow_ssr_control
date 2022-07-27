@@ -1,6 +1,6 @@
 # picow_ssr_control
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdragon-mobile%2Fpicow_ssr_control.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdragon-mobile%2Fpicow_ssr_control?ref=badge_shield)
+![GitHub](https://img.shields.io/github/license/dragon-mobile/picow_ssr_control)
 
 The Raspberry Pi Pico W Solid State Relay Controller is primarily meant to be
 used with an open hardware solid state relay PCB that is being co-developed

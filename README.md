@@ -42,6 +42,7 @@ Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA).
 You can find a copy of the [CC-BY-SA] license in the [LICENSE-CC-BY-SA] file.
 
 [CC-BY-SA]: http://creativecommons.org/licenses/by-sa/4.0/
+[Contributor Covenant Code of Conduct]: CODE_OF_CONDUCT.md 
 [LICENSE-CC-BY-SA]: LICENSE-CC-BY-SA
 [LICENSE-MIT]: LICENSE-MIT
 [MIT]: https://opensource.org/licenses/MIT

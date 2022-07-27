@@ -1,6 +1,7 @@
 # picow_ssr_control
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
-![GitHub](https://img.shields.io/github/license/dragon-mobile/picow_ssr_control)
+![GitHub](https://img.shields.io/static/v1?label=license&message=MIT%20%2F%20CC-BY-SA-4.0&color=orange)
+![GitHub](https://img.shields.io/github/issues/dragon-mobile/picow_ssr_control)
 ![GitHub](https://img.shields.io/github/v/release/dragon-mobile/picow_ssr_control)
 ![GitHub](https://img.shields.io/github/release-date/dragon-mobile/picow_ssr_control)
 ![GitHub](https://img.shields.io/github/last-commit/dragon-mobile/picow_ssr_control)
@@ -8,8 +9,8 @@
 The Raspberry Pi Pico W Solid State Relay Controller is primarily meant to be
 used with an open hardware solid state relay PCB that is being co-developed
 alongside this project as part of my Dragon Mobile GitHub organization to make
-useful hardware with associated firmware and software for the tiny home and van
-life communities.
+useful hardware with associated firmware and software for the tiny home, van
+life and maker communities.
 
 ## Contributing
 

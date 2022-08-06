@@ -61,7 +61,7 @@ You can find a copy of the [CC-BY-SA] license in the [LICENSE-CC-BY-SA] file.
 [CERN-HOWTO_GUIDE]: docs/cern_ohl_w_v2_howto.pdf
 [Contributor Covenant Code of Conduct]: CODE_OF_CONDUCT.md 
 [LICENSE-CC-BY-SA]: LICENSE-CC-BY-SA
-[LICENSE-CERN-OHL-W-2] : CERN-OHL-W-2.txt
+[LICENSE-CERN-OHL-W-2] : CERN-OHL-W-2
 [LICENSE-MIT]: LICENSE-MIT
 [MIT]: https://opensource.org/licenses/MIT
 

@@ -5246,7 +5246,7 @@
   (gr_circle (center 55 135) (end 56.55 135) (layer "User.9") (width 0.15) (fill none) (tstamp af7f1325-a32d-43fc-b815-4bb25d236039))
   (gr_rect (start 50 50) (end 115 140) (layer "User.9") (width 0.15) (fill none) (tstamp c0e9f1a3-5778-4ac4-81c0-40af6b41a3d8))
   (gr_circle (center 110 135) (end 111.55 135) (layer "User.9") (width 0.15) (fill none) (tstamp d1bed0a3-8831-4808-858d-a699fb796dc5))
-  (gr_text "© 2020 Michael Cummings" (at 65.5 119.5) (layer "F.SilkS") (tstamp 2bf1a29f-96da-4f30-a271-5b0bbacffe6a)
+  (gr_text "© 2022 Michael Cummings" (at 65.5 119.5) (layer "F.SilkS") (tstamp 2bf1a29f-96da-4f30-a271-5b0bbacffe6a)
     (effects (font (size 1.25 1.25) (thickness 0.25)))
   )
   (gr_text "Licensed under CERN-OHL-W v2" (at 52.25 121.75) (layer "F.SilkS") (tstamp 582e4528-d0a3-4312-9299-c0367794fa74)

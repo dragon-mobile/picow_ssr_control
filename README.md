@@ -18,8 +18,11 @@ Contributors are welcome.
 Please note that this project has a [Contributor Covenant Code of Conduct].
 By participating in this project you agree to abide by its terms.
 
-All intentionally contributed code will be considered to also be contributed
-under a [MIT]  license without any additional terms or conditions.
+All intentionally contributed hardware will be considered to be contributed
+under the [CERN] license without any additional terms or conditions.
+
+All intentionally contributed code will be considered to be contributed
+under a [MIT] license without any additional terms or conditions.
 Please include your information in a comment on all code files for the copyright
 etc.
 
@@ -40,8 +43,9 @@ All hardware is licensed under the
 
   * [CERN] - CERN-OHL-W-2.0
   
-You can find a copy of the license in the [LICENSE-CERN-OHL-W-2] file and the
-how-to guide in the [CERN-HOWTO_GUIDE] file.
+You can find a copy of the CERN Open Hardware License - Weakly-reciprocal v2.0
+in the [LICENSE-CERN-OHL-W-2] file and the how-to guide in the
+[CERN-HOWTO_GUIDE] file.
 
 All code is licensed under the
 
@@ -52,9 +56,15 @@ You can find a copy of the license in the [LICENSE-MIT] file.
 All documentation like this README is licensed under the Creative Commons
 Attribution-ShareAlike 4.0 International License (CC-BY-SA).
 
-All original CAD files and libraries, footprints, and artwork are also licensed under the
+All original CAD files and libraries, footprints, and artwork are also licensed
+under the
 Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA).
 You can find a copy of the [CC-BY-SA] license in the [LICENSE-CC-BY-SA] file.
+
+If after reading the above license files, how-tos, and related FAQs on the
+linked license sites on how they apply to the project please either open an
+issue or contact me (Michael Cummings) via my Github email and I will try
+to guided you through my understanding of how it works.
 
 [CC-BY-SA]: http://creativecommons.org/licenses/by-sa/4.0/
 [CERN]: https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2

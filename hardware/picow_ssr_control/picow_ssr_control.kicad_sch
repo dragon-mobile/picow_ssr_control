@@ -6,8 +6,8 @@
 
   (title_block
     (title "Picow SSR Control")
-    (date "2022-07-26")
-    (rev "0.0.4")
+    (date "2022-08-05")
+    (rev "0.0.6")
     (comment 2 "http://creativecommons.org/licenses/by-sa/4.0/")
     (comment 3 "License: CC By SA 4.0")
     (comment 4 "Author: Michael Cummings")
@@ -2034,7 +2034,6 @@
       )
     )
   )
-
 
   (junction (at 35.56 40.64) (diameter 0) (color 0 0 0 0)
     (uuid 18d0db15-5ced-4d78-81de-95bce8ac2d88)

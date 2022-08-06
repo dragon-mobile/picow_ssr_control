@@ -7,11 +7,13 @@
   (paper "USLetter")
   (title_block
     (title "Picow SSR Control")
-    (date "2022-08-01")
-    (rev "0.0.5")
+    (date "2022-08-05")
+    (rev "0.0.6")
     (comment 2 "http://creativecommons.org/licenses/by-sa/4.0/")
     (comment 3 "License: CC By SA 4.0")
     (comment 4 "Author: Michael Cummings")
+    (comment 5 "https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2")
+    (comment 6 "Hardware License: CERN-OHL-W")
   )
 
   (layers
@@ -1359,7 +1361,7 @@
 
   (footprint "Picow_control:OSHW_Mono_0.1_Scale" (layer "F.Cu")
     (tedit 5873CC1C) (tstamp 29abf2c4-3f0b-41f0-b674-59d730321c6a)
-    (at 110.5 120)
+    (at 111.5 120)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "OSHW_Mono_0.1_Scale" (at 0 -4.132151) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
@@ -5247,7 +5249,10 @@
   (gr_text "© 2020 Michael Cummings" (at 65.5 119.5) (layer "F.SilkS") (tstamp 2bf1a29f-96da-4f30-a271-5b0bbacffe6a)
     (effects (font (size 1.25 1.25) (thickness 0.25)))
   )
-  (gr_text "v0.0.5" (at 56 123.5) (layer "F.SilkS") (tstamp aa7c7555-4066-48ff-aca2-d27dac18dfd2)
+  (gr_text "Licensed under CERN-OHL-W v2" (at 52.25 121.75) (layer "F.SilkS") (tstamp 582e4528-d0a3-4312-9299-c0367794fa74)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
+  (gr_text "v0.0.6" (at 55.1 126.95) (layer "F.SilkS") (tstamp aa7c7555-4066-48ff-aca2-d27dac18dfd2)
     (effects (font (size 1.5 1.5) (thickness 0.25)))
   )
   (gr_text "6" (at 107.75 127.5) (layer "F.SilkS") (tstamp fb96b4a1-103d-4dd4-992a-a90d120f6c1d)

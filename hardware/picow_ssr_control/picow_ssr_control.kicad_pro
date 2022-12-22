@@ -497,7 +497,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "picow_ssr_control.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

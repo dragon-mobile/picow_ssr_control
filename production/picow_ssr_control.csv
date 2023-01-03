@@ -1,0 +1,15 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"REG1";"SOT230P700X180-4N";1;"LM7805";;;
+2;"JS2,JL1";"PinHeader_1x02_P1.00mm_Vertical";2;"Conn_01x02";;;
+3;"RS4,RS7,RS1,RS5,RS2,RL1,RS6,RS8,RS3";"R_0603_1608Metric";9;"270";;;
+4;"QD8,QD2,QD1,QD6,QD4,QD3,QD5,QD7";"SOT-23";8;"2N7002K";;;
+5;"JCNTL2,JCNTL1";"SAMTEC_SHF-105-01-L-D-RA";2;"SHF-105-01-L-D-RA";;;
+6;"Q2";"DMG2301L";1;"DMG2301L";;;
+7;"C2";"C_0805_2012Metric";1;"100n";;;
+8;"S1";"1938MS";1;"193-8MS";;;
+9;"RP1";"R_0805_2012Metric";1;"100k";;;
+10;"C1";"C_0805_2012Metric";1;"330n";;;
+11;"Q1";"TO254P469X1042X1967-3P";1;"IRF4905PBF";;;
+12;"ZD1";"BZD27C10P-M3-08";1;"+10v Zener Diode";;;
+13;"LP1";"LEDC1608X80N";1;"LTST-C190KGKT";;;
+14;"U1";"Raspberry_Pi_Pico_THT";1;"RaspberryPi-PicoW";;;

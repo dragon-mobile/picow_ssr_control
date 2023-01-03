@@ -8,6 +8,7 @@ _autosave*
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_sch-bak
 *-backups
 *-cache*
 *.kicad_prl
@@ -28,4 +29,4 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
+#*.csv

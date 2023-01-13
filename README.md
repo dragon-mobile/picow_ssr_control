@@ -12,6 +12,20 @@ alongside this project as part of my Dragon Mobile GitHub organization to make
 useful hardware with associated firmware and software for the tiny home, van
 life and maker communities.
 
+## Visual 3D examples
+
+Top view<br/>
+![Top view 3D rendering of the circuit board in FreeCAD](docs/picow_ssr_control.png "Circuit board top view")<br/>
+Bottom view<br/>
+![Bottom view 3D rendering of the circuit board in FreeCAD](docs/picow_ssr_control_back.png "Circuit board bottom view")<br/>
+
+## Description
+
+The board consist of four main electronic sections: Power In / Control Out,
+Power Management / Regulation, Manual Control,
+and the PicoW Control / Drivers.
+There is one mechanical section as well: Mounting Holes.
+
 ## Contributing
 
 Contributors are welcome.

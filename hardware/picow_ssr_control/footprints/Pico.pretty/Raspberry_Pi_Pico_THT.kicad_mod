@@ -198,7 +198,7 @@
   (zone (net 0) (net_name "") (layers *.Cu *.Adhes *.Paste *.SilkS *.Mask) (tstamp deccfaaa-eb9b-4619-8e56-3eaa9e67b834) (name "Antenna Keepout") (hatch full 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed ) (copperpour not_allowed) (footprints not_allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed) (copperpour not_allowed) (footprints not_allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -210,7 +210,7 @@
     )
   )
   (model "${KIPRJMOD}/3dmodels/PicoWH.stp"
-    (offset (xyz -1.63 -49.63 1.3))
+    (offset (xyz -1.63 -49.63 3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

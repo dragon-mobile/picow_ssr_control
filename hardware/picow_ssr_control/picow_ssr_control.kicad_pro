@@ -56,7 +56,7 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|67753033|43646968|5c592cac-63dd-4d38-ad04-eb8ade673e84|fe999980-66bb-4bd5-b009-b9857d5e569f"
+        "clearance|67646967|43853032|5c592cac-63dd-4d38-ad04-eb8ade673e84|fe999980-66bb-4bd5-b009-b9857d5e569f"
       ],
       "meta": {
         "version": 2
@@ -122,6 +122,7 @@
       },
       "track_widths": [
         0.0,
+        0.25,
         0.5
       ],
       "via_dimensions": [
@@ -382,7 +383,9 @@
         "microvia_drill": 0.1,
         "name": "Battery",
         "nets": [
-          "+BATT"
+          "+BATT",
+          "/Control Out/PwrIn1",
+          "/Control Out/PwrIn2"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 0)",
@@ -390,6 +393,33 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 19.68503937007874
+      },
+      {
+        "bus_width": 19.68503937007874,
+        "clearance": 0.18,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Control",
+        "nets": [
+          "/Control Out/BANK_A.CNTL1",
+          "/Control Out/BANK_A.CNTL2",
+          "/Control Out/BANK_A.CNTL3",
+          "/Control Out/BANK_A.CNTL4",
+          "/Control Out/BANK_B.CNTL5",
+          "/Control Out/BANK_B.CNTL6",
+          "/Control Out/BANK_B.CNTL7",
+          "/Control Out/BANK_B.CNTL8"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 255, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 9.84251968503937
       },
       {
         "bus_width": 29.52755905511811,
@@ -439,9 +469,18 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Signal",
-        "nets": [],
+        "nets": [
+          "/Pico W Control/IO1",
+          "/Pico W Control/IO2",
+          "/Pico W Control/IO3",
+          "/Pico W Control/IO4",
+          "/Pico W Control/IO5",
+          "/Pico W Control/IO6",
+          "/Pico W Control/IO7",
+          "/Pico W Control/IO8"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(194, 194, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -481,7 +520,7 @@
           "+VDC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 255, 0)",
+        "schematic_color": "rgb(132, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -546,6 +585,22 @@
     [
       "04b3a773-2568-4dd5-b3b9-f3130861ac39",
       ""
+    ],
+    [
+      "a7cfd456-3e8b-4e3a-9dc2-46f9e2f2d504",
+      "Power Management"
+    ],
+    [
+      "e73b6763-033f-46e1-9aa1-1a9dd8951104",
+      "Pico W Control"
+    ],
+    [
+      "6f32e7f5-0a22-4bb9-a836-1e48dd69b48f",
+      "Manual Control"
+    ],
+    [
+      "9a31bd8a-9f6c-42a4-99bd-41703d57702f",
+      "Control Out"
     ]
   ],
   "text_variables": {}

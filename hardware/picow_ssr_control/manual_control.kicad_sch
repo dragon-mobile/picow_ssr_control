@@ -5,8 +5,8 @@
   (paper "USLetter")
 
   (title_block
-    (date "2023-01-28")
-    (rev "0.0.10")
+    (date "2023-02-08")
+    (rev "0.0.11")
     (comment 2 "http://creativecommons.org/licenses/by-sa/4.0/")
     (comment 3 "License: CC By SA 4.0")
     (comment 4 "Author: Michael Cummings")
@@ -513,12 +513,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/CTS-Electronic-Components/193-8MS?qs=Mr%252BgrRYddfpU71WCaMSCKA%3D%3D" (id 11) (at 60.96 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "CTS" (id 12) (at 63.5 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "193-8MS" (id 13) (at 66.04 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Height" "9.37" (id 14) (at 55.88 80.01 0)

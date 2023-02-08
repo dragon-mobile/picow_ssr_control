@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.74,
-          "height": 1.09,
-          "width": 1.09
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.55
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,9 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|67646967|43853032|5c592cac-63dd-4d38-ad04-eb8ade673e84|fe999980-66bb-4bd5-b009-b9857d5e569f"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -123,12 +121,22 @@
       "track_widths": [
         0.0,
         0.25,
-        0.5
+        0.5,
+        0.55,
+        0.75
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false,
@@ -458,6 +466,26 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 19.68503937007874
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.18,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PowerGood",
+        "nets": [
+          "/Pico W Control/PG"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 9.84251968503937
       },
       {
         "bus_width": 12.0,

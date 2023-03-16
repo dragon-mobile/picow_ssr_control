@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.5,
-          "width": 0.5
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -57,12 +57,12 @@
         }
       ],
       "drc_exclusions": [
-        "silk_over_copper|81500000|39190000|cdc8b0e1-d43b-48b4-be3c-452d38c37b79|c1b9b3a6-5c0b-48e0-95fa-d3c951201f73",
-        "silk_over_copper|81500000|51890000|cdc8b0e1-d43b-48b4-be3c-452d38c37b79|f4c54fa3-0d63-4716-adc9-29fd150a8b2a",
-        "silk_over_copper|81500000|60190000|cdc8b0e1-d43b-48b4-be3c-452d38c37b79|23a7e6e7-4056-4923-9c70-5c6d48ba4ffc",
-        "silk_over_copper|81500000|72890000|cdc8b0e1-d43b-48b4-be3c-452d38c37b79|c0b53698-cee0-41c9-96c8-d63f777c8e76",
-        "silk_over_copper|81570000|51890000|cdc8b0e1-d43b-48b4-be3c-452d38c37b79|c86a5623-cce0-47d8-a986-fcd6f5e686f3",
-        "silk_over_copper|81570000|72890000|cdc8b0e1-d43b-48b4-be3c-452d38c37b79|4924aa02-2e76-43aa-b962-e07a5dbb83f5"
+        "missing_courtyard|24600000|75400000|62555de7-7d6f-4c64-92f5-67a56a3f7533|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|37600000|75392474|ed4cdc83-b5ab-4b21-9661-56a744a0f1d3|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|40950000|84750000|29abf2c4-3f0b-41f0-b674-59d730321c6a|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|60700000|88000000|1c533789-080b-49e5-9b5e-a815386989e8|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|76005700|84166800|a954efb7-8b50-4be4-8122-08a12e1658ac|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|76050000|36450000|a28c6d36-cc19-4395-9dc3-00bc74f56af9|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -92,12 +92,12 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "error",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -148,7 +148,7 @@
           "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onviapad": true
         }
       ],
@@ -158,7 +158,7 @@
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxlen": 2.0,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
@@ -167,7 +167,7 @@
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxlen": 2.0,
           "td_target_name": "td_rect_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
@@ -176,7 +176,7 @@
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxlen": 2.0,
           "td_target_name": "td_track_end",
           "td_width_to_size_filter_ratio": 0.9
         }
@@ -435,7 +435,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.18,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -465,7 +465,7 @@
         "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 19
+        "wire_width": 20
       },
       {
         "bus_width": 12,
@@ -499,7 +499,7 @@
         "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 19
+        "wire_width": 20
       },
       {
         "bus_width": 29,
@@ -516,7 +516,7 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 19
+        "wire_width": 20
       },
       {
         "bus_width": 12,
@@ -534,6 +534,40 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power Out",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(192, 0, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SW",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 10
       },
       {
         "bus_width": 12,
@@ -584,7 +618,24 @@
         "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 9
+        "wire_width": 10
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ZD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(132, 0, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 10
       }
     ],
     "meta": {
@@ -710,12 +761,40 @@
         "pattern": "/Pico W Control/IO8"
       },
       {
-        "netclass": "VCC",
+        "netclass": "Power Out",
         "pattern": "+5V"
       },
       {
         "netclass": "VDC",
         "pattern": "/Power Management/VDC"
+      },
+      {
+        "netclass": "SW",
+        "pattern": "/Power Management/SW"
+      },
+      {
+        "netclass": "ZD",
+        "pattern": "/Power Management/ZD"
+      },
+      {
+        "netclass": "Battery",
+        "pattern": "/Power Management/PI[1..2]"
+      },
+      {
+        "netclass": "Battery",
+        "pattern": "/Control Out/PI1"
+      },
+      {
+        "netclass": "Battery",
+        "pattern": "/Control Out/PI2"
+      },
+      {
+        "netclass": "Battery",
+        "pattern": "/Control Out/PI[1..2]"
+      },
+      {
+        "netclass": "VCC",
+        "pattern": "/Power Management/VCC"
       }
     ]
   },

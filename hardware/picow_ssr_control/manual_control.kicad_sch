@@ -5,13 +5,14 @@
   (paper "USLetter")
 
   (title_block
-    (date "2023-02-13")
-    (rev "0.0.11")
-    (comment 2 "http://creativecommons.org/licenses/by-sa/4.0/")
-    (comment 3 "License: CC By SA 4.0")
-    (comment 4 "Author: Michael Cummings")
-    (comment 5 "https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2")
-    (comment 6 "Hardware License: CERN-OHL-W")
+    (title "Pico W SSR Control")
+    (date "2023-03-14")
+    (rev "0.0.12")
+    (company "Michael Cummings")
+    (comment 1 "https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2")
+    (comment 2 "Hardware License: CERN-OHL-W")
+    (comment 3 "https://creativecommons.org/licenses/by-sa/4.0/")
+    (comment 4 "License: CC By SA 4.0")
   )
 
   (lib_symbols
@@ -142,10 +143,10 @@
       (property "Datasheet" "" (at 0 -1.27 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GNDPWR\" , power ground" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"GNDPWR\" , global ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "GNDPWR_0_1"
@@ -390,7 +391,7 @@
     (uuid fc754fac-07e7-45f4-8498-b4acaaebf492)
   )
 
-  (text "Manual Control" (at 15.24 20.32 0)
+  (text "${SHEETNAME}" (at 15.24 20.32 0)
     (effects (font (size 4 4) bold) (justify left bottom))
     (uuid 2d04f357-4fee-406d-8b58-9947d49516ba)
   )
@@ -443,12 +444,12 @@
   )
 
   (symbol (lib_id "power:GNDPWR") (at 25.4 66.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 76e39411-b69e-40eb-837f-d828b17dd1f9)
-    (property "Reference" "#PWR0101" (at 25.4 71.12 0)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 89310bb6-9d11-4030-8e6b-40851cdf7fc9)
+    (property "Reference" "#PWR015" (at 25.4 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDPWR" (at 25.4 69.596 0)
+    (property "Value" "GNDPWR" (at 25.273 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 25.4 67.31 0)
@@ -457,11 +458,11 @@
     (property "Datasheet" "" (at 25.4 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6200f3bb-2340-42f2-bbb8-96f0f8e0b2eb))
+    (pin "1" (uuid 97aa14d8-f3c5-4708-b1d9-6106ca1668e1))
     (instances
       (project "picow_ssr_control"
         (path "/04b3a773-2568-4dd5-b3b9-f3130861ac39/6f32e7f5-0a22-4bb9-a836-1e48dd69b48f"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
